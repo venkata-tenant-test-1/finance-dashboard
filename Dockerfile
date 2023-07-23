@@ -1,4 +1,4 @@
 # Test Deployment
 FROM httpd:2.4.57
 
-RUN sed -i 's/It works!/Hello from !/' /usr/local/apache2/htdocs/index.html
+RUN sed -i 's/It works!/Hello from finance dashboard!/' /usr/local/apache2/htdocs/index.html
